@@ -33,3 +33,58 @@ p:last-child{
     background-color: yellow;
 }
 
+/* body h1:nth-child(3){
+
+    color: red;
+    background-color: yellow;
+
+} */
+
+body h1:nth-child(6){
+
+    color: red;
+    background-color: yellow;
+
+}
+
+section h1:last-child{
+
+    color: red;
+    background-color: yellow;
+}
+
+h1:nth-child(19){
+    color: red;
+    background-color: yellow;
+}
+
+h1:nth-child(22){
+    color: red;
+    background-color: yellow;
+}
+
+ h1:nth-last-child(22){
+        color: red;
+        background-color: yellow;
+    }
+
+    div:nth-child(12) h1:nth-child(2){
+        color: red;
+        background-color: yellow;
+    }
+
+    h1:nth-last-child(11) {
+        color: red;
+        background-color: yellow;
+    }
+
+    div:nth-last-child(2) h1:nth-child(1){
+        color: red;
+        background-color: yellow;
+    }
+
+    div:nth-last-child(2) h1:last-child {
+        color: red;
+        background-color: yellow;
+    }
+ 

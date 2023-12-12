@@ -33,12 +33,6 @@ p:last-child{
     background-color: yellow;
 }
 
-/* body h1:nth-child(3){
-
-    color: red;
-    background-color: yellow;
-
-} */
 
 body h1:nth-child(6){
 
@@ -83,7 +77,7 @@ h1:nth-child(22){
         background-color: yellow;
     }
 
-    div:nth-last-child(2) h1:last-child {
+    div:nth-last-child(2) h1:nth-child(4) {
         color: red;
         background-color: yellow;
     }

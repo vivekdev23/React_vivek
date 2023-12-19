@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+
+nav{
+  
+    text-align: center;
+    background: orange;
+    justify-items: start;
+    text-decoration: solid;
+    color: black;
+}

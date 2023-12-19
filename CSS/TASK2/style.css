@@ -1,0 +1,35 @@
+body{
+   text-align : center;
+   display: flex;
+}
+.row{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.test-1{
+text-align:center; 
+padding-left : 380px;
+
+}
+
+.test-2{
+padding: 200px 200px 200px 200px;
+}
+
+a{
+   color: black;
+   border-radius: 20px;
+   border: 2px solid purple;
+   text-decoration: none;
+   padding: 5px 20px;
+
+   
+}
+
+a:hover{
+    color: white;
+    background-color:purple;
+    
+}

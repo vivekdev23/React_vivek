@@ -29,6 +29,16 @@
 
 }
 
+.simpale-2 h1{
+
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
 .box-2{
     background-color:aqua;
     margin: 10px 10px 10px 10px ;
@@ -45,4 +55,31 @@ input{
     width: 500px;
     
     
+}
+
+.simpale-3 {
+
+
+    flex-direction: row-reverse;
+    display: flex;
+
+}
+
+.simpale-3 h1{
+
+    margin-left: 10px;
+}
+
+
+.simpale-4 {
+
+
+    flex-direction: row-reverse;
+    display: flex;
+
+}
+
+.simpale-4 h1{
+
+    margin-left: 10px;
 }

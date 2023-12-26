@@ -1,100 +1,63 @@
 .maindiv{
-    background-color: azure;
+    background-color: gray;
     height: 650px;
     width: 1400px;
     border: 1px solid black;
-    display:inline-block;
-    overflow: hidden;
-    
-    
-}
-
-
-.maindiv-1 div {
-
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-}
-
-.maindiv-2 div {
-
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-}
-
-.maindiv-3 div {
-
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
-}
-
-.maindiv-1{
-    display:flex;
-    
-    
-}
-
-.maindiv-2{
-    display: flex;
-}
-
-.maindiv-3{
-    display: flex;
+    position: relative;
+        
 }
 
 .div-1{
-    background-color: bisque;
+
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position:absolute;
 }
 
-.div-2 {
-    background-color: blue;
-    margin-left:500px;
+.div-2{
+
+    height: 100px;
+    width: 100px;
+    background-color:green;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
 }
 
-.div-3 {
-    background-color: rgb(49, 145, 112);
-    margin-left:600px;
+.div-3{
+
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    position: absolute;
+    margin: auto;
+    right: 0;
 }
 
 .div-4{
-    background-color: rgb(161, 174, 37);
-    margin-top: 180px;
+
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
 }
 
+.div-5{
 
-.div-5 {
-    background-color: rgb(86, 91, 9);
- margin-left:500px;
- margin-top: 180px;
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    position: absolute;
+    margin: auto;
+    inset: 0 0 0 0; /*top bottom right left */
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+ */
 }
-
-
-.div-6 {
-    background-color: rgb(232, 140, 11);
-    margin-left:600px;
-    margin-top: 180px;
-}
-
-.div-7{
-    background-color: rgb(145, 14, 137);
-    margin-top: 170px;
-}
-
-.div-8 {
-    background-color: rgb(239, 236, 16);
-    margin-left:500px;
-    margin-top: 170px;
-
-    
-}
-
-.div-9 {
-    background-color: rgb(12, 175, 229);
-    margin-left:600px;
-    margin-top: 170px;
-    
-}
-

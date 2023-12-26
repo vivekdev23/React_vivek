@@ -1,0 +1,52 @@
+
+body{
+    background-color: bisque;
+    background-image: linear-gradient( to right , orange 40%, blue 60%);
+}
+.stump{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-image: url(stump1.png);
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    animation: out 5s infinite;
+  }
+  img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: -10%;
+    bottom: 30%;
+    background-color:antiquewhite;
+    border-radius: 100%;
+    border: 2px solid black;
+    background-size: cover;
+    animation: bolling 5s infinite;
+  }
+  @keyframes bolling {
+    0%{
+      left: -10%;
+    }
+    65%{
+      left: 65%;
+      bottom: 0;
+    }
+    100%{
+      left: 95%;
+      bottom: 20%;
+    }
+  }
+  @keyframes out {
+
+    0%{
+      background-image: url(image/stump1.png);
+    }
+    90%{
+      background-image: url(image/stump1.png);
+    }
+    95%{
+      background-image: url(image/stump2.png);
+    }
+  }

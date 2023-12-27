@@ -3,6 +3,19 @@ body{
     background-color: bisque;
     background-image: linear-gradient( to right , orange 40%, blue 60%);
 }
+
+h1{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100px;
+  font-variant:small-caps;
+  text-align: center;
+  background-color:antiquewhite;
+  border-radius: 100%;
+  animation: wicket 5s infinite;
+
+ 
+}
 .stump{
     position: absolute;
     width: 100px;
@@ -24,7 +37,10 @@ body{
     border: 2px solid black;
     background-size: cover;
     animation: bolling 5s infinite;
+    animation-timing-function: linear ;
   }
+
+  
   @keyframes bolling {
     0%{
       left: -10%;
@@ -32,9 +48,10 @@ body{
     65%{
       left: 65%;
       bottom: 0;
+  
     }
     100%{
-      left: 95%;
+      left: 100%;
       bottom: 20%;
     }
   }
@@ -46,7 +63,20 @@ body{
     90%{
       background-image: url(image/stump1.png);
     }
-    95%{
+    100%{
       background-image: url(image/stump2.png);
+    }
+  }
+
+  @keyframes wicket {
+
+    0%{
+      display: none;
+    }
+    95%{
+     display: none;
+    }
+    100%{
+      display: block;
     }
   }

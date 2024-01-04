@@ -548,6 +548,7 @@ ul , ol {
 
 .footer p{
 	color: #373c47dc;
+	font-weight: 500;
 	padding-top: 20px;
 	line-height: 26px;
 	
@@ -615,12 +616,14 @@ form button{
 	position: absolute;
 	font-size: bold;
 	font-weight: 600;
-	color: white;	
+	color: white;
+	cursor:pointer;	
 	
 }
-
+	
 input::placeholder{
-	font-weight: 500;
+	font-weight: 540;
+
 }
 
 

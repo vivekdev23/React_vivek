@@ -380,9 +380,7 @@ ul , ol {
     line-height: 26px;
     font-weight: 500;
 }
-/* .about_text ul {
-		display:Flex ;
-	} */
+
 .about_text li {
     color: #60697b;
     font-size: 17px;
@@ -403,6 +401,12 @@ ul , ol {
 	padding: 5px 6px;
 	border-radius: 100px;
 }
+
+.about_text ul li {
+	padding: 5px 5px;
+}
+
+
 .about_list {
     display: flex;
     justify-content: space-between;
@@ -528,7 +532,7 @@ ul , ol {
 }
 .footer_logo ul{
 	display: flex;
-	margin-top: 30px;
+	margin-top: 15px;
     gap: 20px;
 }
 

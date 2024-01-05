@@ -123,7 +123,7 @@ ul , ol {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    font-size: 16px;
+    font-size: 19px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
@@ -600,7 +600,7 @@ form{
 }
 
 form input {
-	padding: 22px 20px 22px 20px;
+	padding: 15px 20px 15px 20px;
 	border:1px solid rgba(133, 132, 132, 0.817);
 	border-bottom-left-radius: 3px; 
 	border-top-left-radius: 3px; 
@@ -611,7 +611,7 @@ form input {
 }
 
 form button{
-	padding: 23px 20px 22.5px 20px;
+	padding: 16px 20px 15.5px 20px;
 	background-image: linear-gradient(120deg, rgb(248, 87, 166) 10%, rgb(239, 63, 110) 100%);
 	border-top-right-radius: 3px;
 	 border-bottom-right-radius: 3px;
@@ -621,8 +621,7 @@ form button{
 	font-size: bold;
 	font-weight: 600;
 	color: white;
-	cursor:pointer;	
-	
+	cursor:pointer;				
 }
 	
 input::placeholder{

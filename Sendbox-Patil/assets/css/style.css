@@ -239,8 +239,8 @@ ul , ol {
 	width: 47%;
 }
 .Different_img img {
-	width: 670px;
-	margin-right: -150px;
+		width: 560px;
+		border-radius: 10px;
 }
 .Different {
 	display: flex;

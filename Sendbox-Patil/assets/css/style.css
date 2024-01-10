@@ -7,10 +7,18 @@
     text-decoration: none;
     margin: 0;
 }
+
 body{
 
     font-family: 'Urbanist';
 }
+
+*::selection{
+
+background-color:rgb(143, 176, 35);
+color: black;
+}
+
 
 ul , ol {
     padding: 0;

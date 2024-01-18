@@ -1,77 +1,844 @@
-/* Media Queries */
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media (max-width: 1400px) {
-
+@media (max-width: 1200px) {
   
-}
-
- /* Large devices (laptops/desktops, 992px and up) */
-
-@media(max-width: 992px) {
-
-    .logo img {
-        width: 109px;
-        margin-left: 10px;
+    .navigation{
+        /* margin: 3px 3px; */
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center;  */
+        margin: 10px 30px;
+        padding: 15px;
     }
-
-    .solution-image img {
-        width: 400px;
-        padding-right: 1x;
-    }
-
-    .Control_list {
-        display: inline;
-    }
-
-    .proud_custo {
+    .solution-main{
+        position: relative;
         display: flex;
         flex-wrap: wrap;
-        position: relative;
-        bottom: 55px;;
+        justify-content: space-between;
+        margin: 50px 50px;
     }
+    .menu-icon  i {
+        display: none;
+    }
+    .banner{
+        width: 1200px;   
+        height: 650px; 
+    }
+    .solution-text h1{
+        max-width: 450px;
+    }
+    .solution-text p{
+        max-width: 500px;
+        line-height: 30px;
+    }
+    .text h1{
+        max-width: 600px;
+    }
+    .feature-1{
+        margin: 50px 50px;
+    }
+    .feature-2{
+        margin: 50px 50px; 
+    }
+    .feature-1 p{
+        max-width: 400px;
+    }
+     .feature-2 p{
+        max-width: 400px;
+    }
+    .have{
+        margin: 20px 100px;
+        margin-right: 20px;
+    }
+    .life h1{
+        max-width: 400px;
+    }
+    .life p{
+        max-width: 500px;
+        letter-spacing: 1px; 
+    }
+    .what{
+        margin: 50px 50px;
+    }
+    .makes h2{  
+        margin-top: 20px;
+    }
+    .makes h1{
+        max-width: 500px;
+    }
+    .makes p{
+        max-width: 440px;
+    }
+    .different img{
+        margin-top: 50px;
+    }
+    .proud{
+        margin-top: 50px;
+    }
+    .main_proud{
+        max-width: 100%;
+        height: 500px;
+    }
+    .proud_head{
+        margin: 50px 50px;
+    }
+    .proud_text h3{
+        max-width: 500px;
+    }
+    .proud_text P{
+        max-width: 600px;
+    }
+    .proud_custo{
+        margin: -40px 30px;
+    
+    }
+    .studies{
+        margin: 40px 40px;
+        padding-top: 10px;
+    }
+    .studies img { 
+        width: 350px;
+    }
+    .who{
+        margin: 40px 40px;
+        margin-top: 200px;
+    }
+    .we {
+        padding-top: 10px;
+    }
+    .we h1{
+        max-width: 700px;
+        font-size: 32px;
+        line-height: 45px;
+        letter-spacing: 1px;
+    }
+    .we p{
+        max-width: 700px;
+    }
+    .coon-1 li{
+        line-height: 24.9px;
+        max-width: 600px;
+    }
+    .coon-2 li{
+        line-height: 21.9px;
+        max-width: 600px;
+    }
+    .our{
+        margin-top: 150px;
+        margin: 50px 50px;
+    }
+    .our p{
+        max-width: 270px;
+    }
+    .contact{
+        margin: 50px 50px;
+        margin-top: 150px;
+    }
+    .contact-us{
+        max-width: 500px;
+    }
+    .contact-us h1{
+        font-size: 35px;
+    }
+    .join_bg {
+        width: 100%;
+        height: 400px;
+        margin: 0px 0px;
+    }
+    .join h3{
+        max-width: 800px;
+        margin-left: 215px;
+    }
+    .join_btn {
+        padding-top: 15px;
+    }
+    .main_footer{
+        margin-left: 90px;
+    }
+    .footer{
+        gap: 10px 10px;
+        justify-content: space-evenly;
+    }
+    .footer-col{
+        max-width: 300px;
+    }
+    form input{
+        padding: 13px 0px 16.5px 23px;
+    }
+    .footer_add{
+        max-width: 200px;
 
+    }
+   
 
-
-  
 }
 
- /* Medium devices (landscape tablets, 768px and up) */
 
-@media (max-width: 768px) {
-
-  
-} 
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media (max-width: 600px) {
-
-
-}
-
-/* Extra small devices (phones, 320px and down) */
-
-
-@media (max-width: 320px) {
-
-
-}
-
+@media (max-width:993px) {
+    
+    body{
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-sizing: border-box;
+    }
+    .navigation{
+        /* margin: 3px 3px; */
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center;  */
+        /* margin: 10px 30px; */
+        padding: 15px;
+    }
+    .nav-items nav ul li{
+        padding: 0px 10px;
+    }
+    .solution-main{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px 50px;
+    }
 
  
 
+    .solution-image img {
+        max-width: 490px;
+    }
+    .menu-icon i {
+        display: none;
+    }
+    .banner{
+        width: 1200px;   
+        height: 650px; 
+        width: 100%;
+        height: 600px;
+    }
+    .solution-text h1{
+        max-width: 400px;
+        font-size: 35px;
+    }
+    .solution-text p{
+        max-width: 400px;
+        font-size: 23px;
+    }
+    .ab-2 h3{
+        max-width: 200px;
+    }
+    .feature-1 p{
+        max-width: 300px;
+    }
+    .feature-2 p{
+        max-width: 300px;
+    }
+    .feature-1 img{
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+    }
+    .have-img img{
+        width: 400px;
+        height: auto;
+    }
+    .feature-2 img{
+        width: 40px;
+        height: 40px;
+        margin-left: 5px;
+    }
+    .life h1{
+        font-size: 36px;
+        max-width: 500px;
+    }
+    .life {
+        max-width: 600px;
+    }
+    .life P{
+        font-size: 14px;
+    }
+    .con-list {
+        display: block;
+        margin: 10px 10px;
+    }
+    .con-list-1  li {
+        font-size: 15px;
+        max-width: 500px;
+    }
+    .con-list-2  li {
+        font-size: 15px;
+        max-width: 500px;
+    }
+    .makes h1{
+        max-width: 450px;
+    }
+    .makes p{
+        max-width: 400px;
+        font-size: 16px;
+    }
+    .different img{
+        width: 400px;
+        height: auto;
+    }
 
-  
-/*
+    .Different_img img {
+        width: 500px;
+        border-radius: 10px;
+    }
+    .proud_text h3{
+        font-size: 32px;
 
-    320px — 480px: Mobile devices.
-    481px — 768px: iPads, Tablets.
-    769px — 1024px: Small screens, laptops.
-    1025px — 1200px: Desktops, large screens.
-    1201px and more — Extra large screens, TV.
+    }
 
-*/
+    .proud_info{
+        max-width: 500px;
+    }
+    .main_proud{
+        max-width: 100%;
+        height: 500px;
+    }
+    .proud_custo{
+        flex-wrap: wrap;
+        margin: -150px 50px ;
+    }
+    .proud_box  {
+        width: 400px;
+        height: 200px;
+        margin: 10px 10px;
+        padding: 20px;
+        
+    }
+    .case{
+        margin-top: 300px;
+    }
+     .studies img{ 
+        width: 440px ;
+        height: auto;
+        border-radius: 20px;
+        /* padding: 30px 30px; */
+    } 
+    .studies-3 {
+        display: none;
+    }
+    .who {
+        margin-top: 200px;
+    }
+    .are{
+        margin-top: 90px;
+    }
+    .are  img{
+        width: 200px;
+    }
+    .are-3 img{
+        width: 400px;
+    }
+    .we{
+        margin-top: 10px;
+        max-width: 700px;
+        margin-left: 40px;
+    }
+    .we p{
+        max-width: 500px;
+    }
+    .coon {
+        padding-top: 10px;
+        display: block;
+    }
+    .coon-1{
+        padding-top: 5px;
+        margin-left: -20px;
+    }
+    .coon-2{
+        padding-top: 2px;
+        margin-left: -10px;
+    }
+    .coon-1 li{
+        padding-top: 10px;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+    }
+    .coon-2 li{
+        padding-top: 10px;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+    }
+    .our{
+        margin-top: -70px;
+    }
+    .contact {
+        margin-top: 50px;
+    }
+    .contact-img img{
+        width: 400px;
+    }
+    .contact-us {
+        max-width: 400px;
+    }
+    .contact-us  h1{
+        font-size: 38px;
+    }
+    .join h3{
+        margin-left: 95px;
+    }
+    .main_footer{
+        margin-left: 30px;
+    }
+    .footer{
+        gap: 0px;
+        justify-content: space-evenly;
+    }
+    .footer-col p {
+        max-width: 230px;
+    }
+    form input{
+        padding: 15px 0px 15px 20px;
+    }
+    .footer_add{
+        max-width: 200px;
+    }
+
+    .abou_img img {
+        width: 424px;
+        margin-right: 30px;
+    }
+    .about_list {
+        display: flex;
+        margin-top: 10px;
+        justify-content: normal;
+    }
+
+    .footer {
+        gap: 0px;
+        justify-content: normal;
+    }
+
+    .contact_img img {
+        width: 585px;
+        margin-left: -53px;
+    }
+   
+}
+
+@media (max-width: 768px) {
+
+
+    .solution-text{
+        width: 100%;
+        text-align: center;
+    }
+    .solution-image{
+        width: 100%;
+    }
+    .solution-text{
+        margin-bottom: 50px;
+    }
+    .navigation {
+        margin: 3px 3px;
+    }
+    .nav-items {
+        display: none;
+    }
+    .social-icons {
+        margin-left: 370px;
+    }
+    .menu-icon i{
+        display: block;
+    }
+    .solution-text h1 {
+    max-width: 600px;
+    font-size: 35px;
+    margin-left: 30px;
+    }
+    .solution-text p {
+    max-width: 600px;
+    margin-left: 30px;
+    }
+    .banner{
+        width: 1200px;   
+        height: 650px; 
+        width: 100%;
+        height: 1100px;
+    }
+    .feature-1{
+        display: block;
+        margin: 30px;
+        max-width: 300px;
+    }
+    .feature-2{
+        display: block;
+        margin: 30px;
+        max-width: 300px;
+    }
+    .voon{
+        display: flex;
+    }
+    .ab-2 h3{
+        max-width: 300px;
+    }
+    .control{
+        display: block;
+        margin-top: 100px;
+    }
+    .have-img img{
+        width: 600px;
+        height: auto;
+    }
+    .life{
+        max-width: 800px;
+        margin-left: -70px;
+    }
+    .life h1{
+        max-width: 800px;
+    }
+    .life p{
+        font-size: 17px;
+        max-width: 900px;
+    }
+    .con-list{
+        margin-left: -10px;
+    }
+    .con-list li{
+        font-size: 17px;
+    }
+    
+    .makes {
+        order: 2;
+    }
+    .different{
+        order: 1;
+    }
+    .different img{
+        width: 700px;
+        margin-left: -20px;
+    }
+    .makes{
+        max-width: 1000px ;
+    }
+    .makes h1{
+        max-width: 700px;
+        font-size: 32px;
+    }
+    .makes p{
+        max-width: 700px;
+        font-size: 17px;
+    } 
+    .proud_text {
+        font-size: 32px;
+        width: 700px;
+        align-items: center ;
+
+    }
+    .proud_text h3{
+        margin-left: 100px;
+        margin-top: -60px;
+    }
+    .proud_text p{
+        margin-left: 25px;   
+    }
+    .proud_head{
+        display: block;
+    }
+    .proud_info{
+        max-width: 600px;
+        margin-top: 30px    ;
+    }
+    .main_proud{
+        max-width: 100%;
+        height: 500px;
+        margin: 5px 5px;
+    }
+    .proud_custo{   
+        margin: -380px 0px ;
+    }
+    .proud_box  {
+        width: 340px;
+        height: 300px;
+        margin: 10px 10px;
+        padding: 20px;
+    }
+    .case{
+        margin-top: 480px;
+    }
+    .case-text h1{
+        font-size: 32px;
+    }
+    .studies img{
+        width: 300px;
+        height: auto;
+    }
+    .who{
+        display: block;
+    }
+    .are img{
+        width: 340px;
+    }
+    .are-3 img{
+        width: 650px;
+    }
+    .we{
+        margin-left: 0px;
+    }
+    .we h1{
+        font-size: 28px;
+    }
+    .we p{
+        font-size: 18px;
+        max-width: 900px;
+    }
+    .coon-1 li{
+        font-size: 17px;
+    }
+    .coon-2 li{
+        font-size: 17px;
+    }
+    .our {
+        display: block;
+    }
+    .our p{
+        max-width: fit-content;
+        font-size: 18px ;
+    }
+    .contact{
+        display: block;
+    }
+    .contact-img img{
+        width: 600px;
+        margin-top: 100px;
+    }
+    .contact-us{
+        max-width: 900px;
+        margin-left: 0px;
+    }
+    .contact-us h1{
+        font-size: 32px;
+    }
+    .join_bg {
+        height: 400px;
+        width: auto;
+        border-radius: 0px;
+    }
+    .join h3{
+        font-size: 33px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+    /* .footer{
+        
+        display: block;
+        display: inline-flex;
+    } */
+   /* .footer-col {
+        max-width: fit-content;
+        margin-top: 400px;
+        margin-left: -450px;
+   } */
+   /* .footer-col h4{
+        margin-left: -196px;
+        max-width: 400px;
+        font-size: 22px;
+        padding: 5px;
+   } */
+   /* .footer-col p{
+        margin-top: 2px;
+        margin-left: -190px;
+        max-width: max-content;
+        display: inline-flex;
+        gap: 0px;
+        padding: 5px;
+    } */
+    /* form input{
+        flex-wrap: wrap;
+        padding: 15px 80px 15px 80px;
+        margin-left: -185px; 
+    } */
+    .container{
+        max-width: 720px;
+    }
+    .footer{
+        gap: 0px;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    .main_footer{
+        margin-left: 0;
+    }
+    .footer-col {
+        margin-top: 20px;
+        max-width: 900px;
+        padding: 0;
+    } 
+    .footer-col h4 {
+        padding-bottom: 0;
+        font-size: 22px;
+    }
+    .footer-col p{
+        max-width: 800px;
+    }
+    form input{
+        flex-wrap: wrap;
+        padding: 15px 400px 15px 0px;
+    }
+    .footer_add{
+        margin: 0px 50px;
+    }
+    .who{
+        margin: 0;
+    }
+    
+    .footer_add{
+        max-width: 200px;
+    }
+    
+} 
+
+@media (max-width: 576px) {
+
+    .container{
+        max-width: 576px    ;
+    }
+    .social-icons{
+        margin: 0px;
+        margin-left: 225px;
+    }
+    .banner{
+        padding: 50px 0px;
+        height: 845px;
+    }
+    .solution-text p {
+        margin-left: 0px;
+    }
+    .solution-text h1{
+        margin-left: 0px;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .feature{
+        max-width: 700px    ;
+    }
+    .voon {
+        display: block;
+    }
+    .feature-1 p{
+        max-width: 450px;
+    }
+    .feature-2 p{
+        max-width: 450px;
+    }
+    .ab-2 , .ab-3 , .ab-4 , .ab-5 , .ab-6 , .ab-7 {
+        width: 700px;
+    }
+    .ab-5{
+        padding-top: 0px;
+    } 
+    .have{
+        margin-left: 60px;
+    }
+    .have-img img{
+        width: 450px;
+        height: auto;
+    }
+    .life {
+        max-width: 800px;
+        margin-left: -50px;
+    }
+    /* .what{
+        margin: 20px 20px;
+    } */
+    .different img {
+        width: 500px;
+        margin-left: 0px;
+    }
+    .proud_custo {
+        margin: -760px 30px;
+    }
+    .what{
+        margin-left: 30px;
+    }
+    .proud_text h3 {
+        margin-left: 25px;
+        margin-top: -60px;
+    }
+    .proud_text p {
+        margin-left: -30px;
+        max-width: 500px;   
+        text-align: center;     
+    }
+    .main_proud{
+        height: 900px;
+    }
+    .proud_info
+    {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 100px;
+    }
+    .proud_icon{
+        margin-top: 30px;
+    }
+    .proud_custo{
+        display: block;
+    }
+    .proud_box{
+        width: 450px;
+        height: auto;
+        margin: 30px 10px;
+        padding: 40px 40px;
+    }
+    .case{
+        margin-top: 850px;
+    }
+    .studies-1 img{
+        width: 500px;
+    }
+    .studies-2 {
+        display: none;
+    }
+    .are{
+        display: block;
+    }
+    .are img{
+        width: 500px;
+        margin-left: 35px;
+    }
+    .are-3 img{
+        width: 500px;
+        margin-left: 30px;
+    }
+    .we{
+        margin-left: 30px;
+    }
+    .contact-img img {
+        width: 500px;
+        margin-top: 100px;
+    }
+    .we p{
+        max-width: 500px;
+    }
+    .join_bg{
+        height: auto;
+    }
+    .join h3 {
+        font-size: 35px;
+        margin-left: 10px;
+        font-weight: 500;
+    }
+    .contact-us h1 {
+        font-size: 29px;
+    }
+    .footer{
+        display: block;
+        padding: 30px 30px;
+        max-width: 600px;
+    }
+    .footer_add{
+        margin-left: -30px ;
+        padding-top: 20px;
+        max-width: 500px;
+    }
+    .footer_link{
+        margin-left: -30px;
+        padding-top: 20px;
+    }
+    form input{
+        padding: 15px 250px 15px 0px;
+    }
+
+}

@@ -1,0 +1,30 @@
+.container{
+    margin-top: 100px;
+}
+
+.row{
+    color: black;
+}
+
+.col-md-1{
+    background-color: rgba(131, 132, 133, 0.746);
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.col-md-8 , .col-md-4  {
+    background-color: rgba(131, 132, 133, 0.746);
+    padding: 15px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+.col-md-6{
+    background-color: rgba(131, 132, 133, 0.746);
+    padding: 15px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+
+

@@ -1,0 +1,18 @@
+.container{
+    margin-top: 100px;
+}
+
+.col-1,.col-4 , .col-8 , .col-6 , .col-12 , .col-3{
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.oli{
+    border: 1px solid rgb(240, 246, 240);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}

@@ -10,9 +10,11 @@
 }
 
 .oli{
-    border: 1px solid rgb(240, 246, 240);
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 20px;
+
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 20px;
+
 
 }

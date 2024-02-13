@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(13, 88, 200);
-}
+
 
 .form{
     height: 700px;
@@ -14,4 +12,8 @@ body{
 
 .btn{
     margin-left: 18px;
+}
+
+span{
+    border-bottom: 4px solid rgba(8, 52, 99, 0.92);
 }

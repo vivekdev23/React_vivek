@@ -1,0 +1,103 @@
+$color-1:red;
+$color-2:rgb(0, 0, 0);
+$color-3:grey;
+$color-4:white;
+$color-5:rgb(47, 60, 235);
+$color-6:orange;
+
+
+$color-bg1:rgb(218, 218, 226);
+$color-bg2:magenta;
+$color-bg3:aqua;
+$color-bg4:indigo;
+$color-bg5:violet;
+
+
+
+$flex:flex;
+$jastify-c:center;
+$justify-s:flex-start;
+$justify-e:flex-end;
+$justify-between:space-between;
+$justify-around:space-around;
+$justify-evenly:space-evenly;
+$align-s:flex-start;
+$align-c:center;
+$align-e:flex-end;
+
+$f-1:18px;
+$f-2:25px;
+$f-3:30px;
+$f-4:40px;
+$font-f:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+$h-1:100px;
+$h-2:200px;
+
+$mt:10px;
+$mt1:50px;
+
+
+$w-1:100px;
+$w-2:200px;
+
+body{
+    font-family: $font-f;
+}
+.card_section{
+     h1{
+     margin-top: $mt;
+    }
+    p{
+        font-size: $f-1;
+    }
+}
+
+.card_section{
+        display: $flex;
+        justify-content: $jastify-c;
+        text-align: $align-c;
+        margin-top: $mt1 ;
+        h1{
+            font-size: $f-4;
+           
+        }
+        .card-body{
+
+        background-color: $color-bg1;
+
+        }
+      
+    }
+
+    .card_sector {
+        display:$flex;
+        justify-content:$justify-around;
+        flex-wrap: wrap;
+
+    }
+
+    .card 
+    {
+        .card-link {
+            color:$color-5;
+    }
+        .card-title{
+             color:$color-2;
+             font-size:$f-3;
+        }
+
+        .card-text{
+            color:$color-3;
+       }
+
+       .card-subtitle{
+         color:$color-3;
+   }
+
+    span{
+        color: $color-5;
+
+    }
+    }
+

@@ -4,7 +4,7 @@
 
 let num = 0;
 
-if (num > 0) {
+if (num > 0){
     console.log("The number is positive");
 
 } else if (num < 0) {
@@ -56,9 +56,9 @@ let year = 2004;
     } else {
         console.log(year + " is not a leap year");
     }
+ 
 
-
-// 5th  Determine the grade based on a score
+// 5th  Determine the grade based on a score 
 
 
 let score = 85;

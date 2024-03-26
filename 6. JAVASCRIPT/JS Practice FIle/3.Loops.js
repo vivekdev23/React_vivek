@@ -12,7 +12,7 @@ for (a=0 ; a<=n ; a++)
 // 2nd Print the numbers from 12 to 24 .
 
 let b;
-let m=24;
+let m = 24;
 
 for (b=12 ; b<=m ; b++)
 {

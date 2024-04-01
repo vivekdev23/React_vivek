@@ -1,10 +1,26 @@
 
+// For_loops in javascript 
+
+/*
+
+=> The for statement creates a loop with 3 optional expressions.
+
+-> syntex :: 
+
+    for (expression 1; expression 2; expression 3) {
+
+            // code block to be executed
+    }
+
+ */
+
+
 // 1st Print the numbers from 0 to 15.
 
- let a;
-let n=15;
+let a;
+let n = 15;
 
-for (a=0 ; a<=n ; a++)
+for ( a=0 ; a<=n ; a++ )
 {
     console.log(a);
 } 
@@ -15,6 +31,7 @@ let b;
 let m = 24;
 
 for (b=12 ; b<=m ; b++)
+
 {
     console.log(b);
 
@@ -26,6 +43,7 @@ let c;
 let l=31
 
 for(c=7 ; c<=l ; c++) {
+
     if(c%2==1)
     {
         console.log(c);
@@ -39,6 +57,7 @@ for(c=7 ; c<=l ; c++) {
  let i;
 let j = -20;
   for (i = 10; i >= j ; i--) {
+    
     if (i % 2 == 0) {
 
         console.log(i);
@@ -47,11 +66,13 @@ let j = -20;
 } 
 
 
-// 5th Iterate through all numbers from 1 to 45. Print the following : 
+/**  5th Iterate through all numbers from 1 to 45. Print the following : 
 
-// ● For multiples of 3 print “Fizz”
-// ● For multiples of 5 print “Buzz”
-// ● For multiples of 3 and 5 print “FizzBuzz”
+ ● For multiples of 3 print “Fizz”
+ ● For multiples of 5 print “Buzz”
+ ● For multiples of 3 and 5 print “FizzBuzz”
+
+*/
 
 let d;
 let e=45;

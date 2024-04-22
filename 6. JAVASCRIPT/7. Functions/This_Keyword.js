@@ -7,7 +7,7 @@
 => in event this referens to the elemnt that resive the event 
  */
 
-// Exampale 
+// 1st Exampale 
 
 const person = {
 
@@ -22,7 +22,12 @@ const person = {
 
 console.log(person.fullName());
 
-// Exampale 
+// 2nd Exampale 
+
+
+
+
+ 
 
 
 

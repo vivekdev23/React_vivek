@@ -59,3 +59,5 @@ console.log(typeof str1);
 
 // logic operator :: 1. Logic And (&&)   2.Logic OR (||)  3.Logic NOT (!) 
 
+
+

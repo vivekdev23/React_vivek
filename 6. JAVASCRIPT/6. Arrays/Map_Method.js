@@ -37,6 +37,7 @@ console.log(a2)
 //3rd Exampale 
 
 let arr3 = [ 
+    
     { fname:"vivek" , lname:"patil" },
     {fname:"pracha" , lname:"Agrawal"},
     {fname:"Hemu" , lname:"Tiwari"} ];
@@ -47,10 +48,3 @@ let a3 = arr3.map((name) => {
 })
 
 console.log(a3);
-
-
-
-
- 
-
-

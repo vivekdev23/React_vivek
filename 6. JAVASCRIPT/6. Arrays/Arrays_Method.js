@@ -67,4 +67,29 @@ console.log(Ans5);
 let An3 = Arr.includes("vivek")
 console.log(An3);
 
+//  Join() => Join All Element of an Arrays into a String . element are speretrd by specified seprete element . 
+
+let Ans6 = Arr.join("*")
+console.log(Ans6)
+
+// Reverse() => reverse the Arrays 
+
+let Ans7 = Arr2.reverse()
+console.log(Ans7);
+
+// toString() => return a String represting Specified number Of Array 
+
+let Ans8 = Arr3.toString()
+console.log(Ans8);
+
+// indexof & lastindexof =>  
+
+
+
+
+// sort() => 
+
+
+
+
 // 

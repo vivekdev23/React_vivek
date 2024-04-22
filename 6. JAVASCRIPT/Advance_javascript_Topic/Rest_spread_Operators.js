@@ -1,8 +1,0 @@
-
-// Rest & Spread Operatore
-
-/*
-
-=>  
- 
- */

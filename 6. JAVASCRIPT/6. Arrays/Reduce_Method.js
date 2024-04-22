@@ -16,6 +16,6 @@ let a = arr.reduce((h1 , h2)=>{
 
 })
 
-console.log(a)
+console.log(a) 
 
 

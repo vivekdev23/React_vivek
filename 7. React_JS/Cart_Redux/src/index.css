@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .title{
+        @apply bg-blue-400 p-2 m-2 text-center font-semibold text-2xl text-white
+    }
+}

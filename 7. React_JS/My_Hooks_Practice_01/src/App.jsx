@@ -12,7 +12,6 @@ function App() {
 
      <Counter/>
      <Recepis/>
-     <Use_Effect_form/>
 
     </div>
 

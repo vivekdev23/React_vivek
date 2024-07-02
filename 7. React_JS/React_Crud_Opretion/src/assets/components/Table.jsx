@@ -7,10 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Table = () => {
 
   const [data, setData] = useState([])
-
-  console.log(data);
-
-  // const [searchTerm, setSearchTerm] = useState('')
+  const [searchTerm, setSearchTerm] = useState('') 
 
   // axios
 
@@ -34,6 +31,8 @@ const Table = () => {
     })
   }
 
+  const filterdata = data.filter((item) => item.username.toLowerCase().includes(searchTerm.toLocaleLowerCase()))
+
   return (
     <>
       <section className="mx-auto w-full max-w-7xl px-4 py-4">
@@ -50,6 +49,7 @@ const Table = () => {
               className="flex h-10 w-[250px] rounded-md bg-gray-100 px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
               type="text"
               placeholder="Search Users"
+              onChange={(e)=>{setSearchTerm(e.target.value)}}
             ></input>
           </div>
           <div>
@@ -110,7 +110,7 @@ const Table = () => {
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-gray-200 bg-white">
-                    {data.map((person) => (
+                    {filterdata.map((person) => (
                       <tr key={person.id}>
                         <td className="whitespace-nowrap px-4 py-4">
                           <div className="flex items-center">

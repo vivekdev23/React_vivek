@@ -144,18 +144,26 @@ const ProductList =
         }
     ]
 
+    
+   import { useState } from "react"
+
 const ListRander = () => {
+
+    const [searchTerm, setSearchTerm] = useState('') 
+    const filterdata = ProductList.filter((item) => item.title.toLowerCase().includes(searchTerm.toLocaleLowerCase()))
+x
 
   return (
     <>
      <div>
       <div className="text-center">
-    <input className="m-8 border-2 border-black text-center" type="text" name="" id="" />
+    <input className="m-8 border-2 border-black text-center" type="text" name="" id="" 
+    onChange={(e)=>{setSearchTerm(e.target.value)}} />
       </div>
             <ul className='flex flex-wrap justify-around p-10'>
                 {
                 
-                    ProductList.map((item) => {
+                filterdata.map((item) => {
                         return (
                             <div key={item.id} className='h-56 w-60 border-2 border-black mb-2 text-center'>
                                 <p>{item.title}</p>
@@ -167,7 +175,6 @@ const ListRander = () => {
                 }
             </ul>
         </div>
-
     </> 
   )
 }

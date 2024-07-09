@@ -34,6 +34,17 @@ const Edit = () => {
     })
   }
 
+  const handleImageChange = (e) => {
+    const file = e.target.files[0];
+    if(file){
+        const reader = new FileReader();
+        reader.onloadend = () => {
+            setUser({...user , image:reader.result})
+        }
+        reader.readAsDataURL(file)
+    }
+}
+
   useEffect(() => {
     loadUserWithId();
   } , []
@@ -152,6 +163,7 @@ const Edit = () => {
                       className="flex w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                       type="file"
                       id="file"
+                      onChange={handleImageChange}
                     ></input>
                   </div>
                 </div>

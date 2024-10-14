@@ -4,7 +4,6 @@
 
 // Arithmetic Opretors :: Create a program that performs arithmetic operations on two numbers.
 
-
 let a = 10;
 let b = 5;
 
@@ -58,6 +57,3 @@ console.log(str1 == str2);
 console.log(typeof str1); 
 
 // logic operator :: 1. Logic And (&&)   2.Logic OR (||)  3.Logic NOT (!) 
-
-
-

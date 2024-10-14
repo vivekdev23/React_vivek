@@ -3,7 +3,9 @@
 
 /*
 
-=> Two type Data Type In Javascript 
+=> 
+    
+    Two type Data Type In Javascript 
 
 1. Primitive -> Predifined
 
